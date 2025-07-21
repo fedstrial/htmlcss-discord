@@ -229,4 +229,13 @@ li {
 }
 
 
+#language {
+    display: flex;
+    gap: 10px;
+}
+
+#flag {
+    height: 20px;
+}
+
 /* ADD % WIDTH TO BOTTOM LINK CONTAINERS */
