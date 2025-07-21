@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #002332;
+    height: 80px;
+}
+
+#header-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%
+}
+
+.logo {
+    height: 50px;
+    width: 220px;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+#login-btn {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#intro-container {
+    background-image: url('../assets/background-template-png.png');
+    background-size: cover;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    color: white;
+}
+
+#title { 
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+#sub-title {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 200px;
+}
+
+button {
+    padding: 15px;
+    border: 0;
+    border-radius: 30px
+}
+
+#download {
+    color: black;
+    background-color: white;
+}
+
+#open-in-browser {
+    background-color: #454545;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.image-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-medium {
+    height: 500px;
+    width: 1000px
+}
+
+.section-title {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.big-content {
+    width: 1800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#big-svg {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.download-container {
+    width: 1800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#download-bottom {
+    background-color: lightskyblue;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: slategray;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.link-header {
+    color: lightblue;
+    padding-bottom: 10px
+}
+
+#lang-header {
+    font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#bottom-footer-container {
+    display: flex;
+    width: 1800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#register {
+    color: white;
+    background-color: lightskyblue;
+}
+
+/* ADD % WIDTH TO BOTTOM LINK CONTAINERS */
