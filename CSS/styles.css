@@ -12,7 +12,7 @@ html, body {
 header {
     display: flex;
     align-items: center;
-    background-color: #002332;
+    background-color: #255EE9;
     height: 80px;
 }
 
@@ -40,8 +40,9 @@ a {
     text-decoration: none; /* no underline */
 }
 
-#login-btn {
+#login {
     background-color: white;
+    color: black;
     border-radius: 20px;
     padding: 10px;
     border: 0
@@ -52,7 +53,7 @@ button:hover {
 }
 
 #intro-container {
-    background-image: url('../assets/background-template-png.png');
+    background-image: url('../assets/jumbo.png');
     background-size: cover;
 }
 
@@ -63,7 +64,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 1200px;
+    width: 50%;
     text-align: center;
     color: white;
 }
@@ -100,13 +101,16 @@ button {
 #open-in-browser {
     background-color: #454545;
     color: white;
+    padding: 15px;
+    border: 0;
+    border-radius: 30px
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1800px;
+    width: 70%;
     margin: 0 auto;
     margin-top: 150px;
 }
@@ -132,7 +136,7 @@ button {
 }
 
 .big-content {
-    width: 1800px;
+    width: 70%;
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
@@ -144,7 +148,7 @@ button {
 }
 
 .download-container {
-    width: 1800px;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -166,7 +170,7 @@ footer {
 #container-footer {
     display: flex;
     justify-content: space-between;
-    width: 1800px;
+    width: 70%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -192,7 +196,7 @@ li {
 
 #bottom-footer-container {
     display: flex;
-    width: 1800px;
+    width: 80%;
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 50px;
