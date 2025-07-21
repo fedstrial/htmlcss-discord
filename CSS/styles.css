@@ -124,7 +124,7 @@ button {
     height: 500px;
 }
 
-.section-container { 
+.section-container {
     width: 40%;
 }
 
@@ -149,26 +149,43 @@ button {
 .big-content {
     width: 70%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 80px;
     text-align: center;
 }
 
-#big-svg {
-    padding-top: 100px;
+.container-big-svg {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
     padding-bottom: 150px;
 }
 
+#big-svg {
+    height: 800px;
+}
+
 .download-container {
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin: 0 auto;
-    text-align: center;
+}
+
+#download-title {
+    font-size: 40px;
+    background-image: url("../assets/stars.svg");
+    margin: 0 auto;
 }
 
 #download-bottom {
     background-color: #8DA2E2;
-    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
     color: white;
     margin-bottom: 100px;
+    font-size: 20px;
 }
 
 footer {
@@ -195,6 +212,10 @@ footer {
     font-size: 30px;
 }
 
+#lang-header, #language {
+    padding-bottom: 20px
+}
+
 ul {
   list-style-type: none;
 }
@@ -209,8 +230,8 @@ li {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    justify-content: space-between;
     padding-top: 50px;
+    justify-content: space-between;
 }
 
 #register {
@@ -228,6 +249,9 @@ li {
     background-image: url("../assets/double-bubble-reverse.svg#svgView(preserveAspectRatio(none))");
 }
 
+#social-lang {
+    width: 40%;
+}
 
 #language {
     display: flex;
@@ -238,4 +262,13 @@ li {
     height: 20px;
 }
 
+#social-links { 
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.links {
+    width: 15%;
+}
 /* ADD % WIDTH TO BOTTOM LINK CONTAINERS */
