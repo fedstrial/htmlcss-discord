@@ -26,7 +26,6 @@ header {
 
 .logo {
     height: 50px;
-    width: 220px;
 }
 
 #header-links {
@@ -99,7 +98,7 @@ button {
 }
 
 #open-in-browser {
-    background-color: #454545;
+    background-color: #22282A;
     color: white;
     padding: 15px;
     border: 0;
@@ -112,23 +111,35 @@ button {
     align-items: center;
     width: 70%;
     margin: 0 auto;
-    margin-top: 150px;
 }
 
 .image-container { 
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 60%;
 }
 
 .svg-medium {
     height: 500px;
-    width: 1000px
+}
+
+.section-container { 
+    width: 40%;
 }
 
 .section-title {
     font-size: 50px;
     padding-bottom: 20px;
+}
+
+.background-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.background-gray {
+    background-color: #F6F6F6;
 }
 
 .reverse {
@@ -154,14 +165,14 @@ button {
 }
 
 #download-bottom {
-    background-color: lightskyblue;
+    background-color: #8DA2E2;
     margin-top: 30px;
     color: white;
     margin-bottom: 100px;
 }
 
 footer {
-    background-color: slategray;
+    background-color: #23272A;
     color: white;
     padding-top: 80px;
     padding-bottom: 100px;
@@ -176,7 +187,7 @@ footer {
 }
 
 .link-header {
-    color: lightblue;
+    color: #7387DB;
     padding-bottom: 10px
 }
 
@@ -204,7 +215,18 @@ li {
 
 #register {
     color: white;
-    background-color: lightskyblue;
+    background-color: #8FA3E3;
 }
+
+.divider {
+    height: 100px;
+    background: url("../assets/double-bubble.svg#svgView(preserveAspectRatio(none))") center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.divider.reverse-svg {
+    background-image: url("../assets/double-bubble-reverse.svg#svgView(preserveAspectRatio(none))");
+}
+
 
 /* ADD % WIDTH TO BOTTOM LINK CONTAINERS */
